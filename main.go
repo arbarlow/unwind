@@ -70,5 +70,4 @@ func updateHandler(w http.ResponseWriter, r *http.Request) {
 		d.FormCompletionTime = fd.Data.FormCompletionTime
 		fmt.Printf("SUBMIT: \n	%+v\n", d)
 	}
-
 }
